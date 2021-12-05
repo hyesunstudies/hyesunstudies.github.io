@@ -5,7 +5,7 @@ layout: default
 # Bài 1: Tiêu đề bài 1
 Nội dung bài 1
 
-<iframe width="300" height="230"
+<iframe width="300" height="230" frameBorder="0"
   src="https://www.youtube.com/embed/DWcJFNfaw9c">
 </iframe>
 
@@ -35,8 +35,8 @@ Nội dung bài 1
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| ok           | good oreos      | hmm   |
+| ok           | good zoute drop | yumm  |
 
 ### There's a horizontal rule below this.
 
@@ -94,13 +94,13 @@ Nội dung bài 1
 <dd>Green</dd>
 </dl>
 
-```
+<!-- ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
 
 ```
 The final element.
-```
+``` -->
 
 
 <!-- [home](/index.html) -->

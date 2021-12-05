@@ -9,7 +9,7 @@ layout: default
 
 tóm tắt nội dung bài 1.........
 
-<iframe width="300" height="230"
+<iframe width="300" height="230" frameBorder="0"
   src="https://www.youtube.com/embed/hxmUjXXTmpU">
 </iframe>
 <br/><br/>

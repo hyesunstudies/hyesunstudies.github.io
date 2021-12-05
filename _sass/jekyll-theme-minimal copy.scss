@@ -2,18 +2,17 @@
 @import "rouge-github";
 
 body {
-  // background-color: #fff;
-  background-color: #0d1117;
+  background-color: #fff;
   padding:50px;
   font: 14px/1.5 "Exo", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#c9d1d9;
+  color:#666666;
   // color:#727272;
   // font-weight:400;
   font-weight:500;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#c9d1d9;
+  color:#222;
   margin:0 0 20px;
 }
 
@@ -30,29 +29,27 @@ h1 {
 }
 
 h2 {
-  color:#c9d1d9;
+  color:#393939;
 }
 
 h3, h4, h5, h6 {
-  color:#c9d1d9;
+  color:#494949;
 }
 
 a {
-  color:#d24413;
+  color:#267CB9;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#d24413;
-  // text-decoration: underline;
-  // font-weight: bold;
+  color:#069;
+  font-weight: bold;
 }
 
 a small {
-  font-size:12px;
+  font-size:11px;
   color:#777;
   margin-top:-0.3em;
-  font-weight:500;
   display:block;
 }
 
@@ -66,7 +63,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #30363d;
+  border-left:1px solid #e5e5e5;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -74,7 +71,7 @@ blockquote {
 
 code, pre {
   font-family: "Consolas", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:rgb(43, 43, 43);
+  color:#333;
 }
 
 pre {
@@ -93,16 +90,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #30363d;
+  border-bottom:1px solid #e5e5e5;
 }
 
 dt {
-  color:#c9d1d9;
+  color:#444;
   font-weight:700;
 }
 
 th {
-  color:#c9d1d9;
+  color:#444;
 }
 
 img {
@@ -134,16 +131,16 @@ ul.downloads {
   list-style:none;
   height:40px;
   padding:0;
-  background: #21262d;
+  background: #f4f4f4;
   border-radius:5px;
-  border:1px solid #0d1117;
+  border:1px solid #e0e0e0;
   width:270px;
 }
 
 .downloads li {
   width:89px;
   float:left;
-  border-right:1px solid #373b42;
+  border-right:1px solid #e0e0e0;
   height:40px;
 }
 
@@ -158,7 +155,7 @@ ul.downloads {
 .downloads a {
   line-height:1;
   font-size:11px;
-  color:#c9d1d9;
+  color:#676767;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -166,8 +163,8 @@ ul.downloads {
 }
 
 .downloads a:hover, .downloads a:focus {
-  color:#c9d1d9;
-  // font-weight:bold;
+  color:#675C5C;
+  font-weight:bold;
 }
 
 .downloads ul a:active {
@@ -175,7 +172,7 @@ ul.downloads {
 }
 
 strong {
-  color:#c9d1d9;
+  color:#222;
   font-weight:700;
 }
 
@@ -187,7 +184,7 @@ strong {
 .downloads a strong {
   font-size:14px;
   display:block;
-  color:#c9d1d9;
+  color:#222;
 }
 
 section {
