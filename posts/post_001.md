@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Bài 1
-Text here...
+# Bài 1: Tiêu đề bài 1
+Nội dung bài 1
 
 <iframe width="300" height="230"
   src="https://www.youtube.com/embed/DWcJFNfaw9c">

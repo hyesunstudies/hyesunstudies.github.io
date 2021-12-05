@@ -53,3 +53,79 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
+
+//////////////////////////////////////////////////////
+
+@font-face {
+  font-family: 'Exo';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Exo'),
+       local('Exo'),
+       url('../fonts/Exo/Exo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Exo Bold'),
+       local('Exo'),
+       url('../fonts/Exo/Exo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Exo';
+  font-weight: 400;
+  font-style: italic;
+  src: local('Exo Italic'),
+       local('Exo'),
+       url('../fonts/Exo/Exo-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo';
+  font-weight: 700;
+  font-style: italic;
+  src: local('Exo Bold Italic'),
+       local('Exo'),
+       url('../fonts/Exo/Exo-BoldItalic.ttf') format('truetype');
+}
+
+//////////////////////////////////////////////////////
+
+@font-face {
+  font-family: 'Consolas';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Consolas'),
+       local('Consolas'),
+       url('../fonts/Consolas/CONSOLA.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Consolas';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Consolas Bold'),
+       local('Consolas'),
+       url('../fonts/Consolas/CONSOLAB.TTF');
+}
+
+@font-face {
+  font-family: 'Consolas';
+  font-weight: 400;
+  font-style: italic;
+  src: local('Consolas Italic'),
+       local('Consolas'),
+       url('../fonts/Consolas/consolai.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Consolas';
+  font-weight: 700;
+  font-style: italic;
+  src: local('Consolas Bold Italic'),
+       local('Consolas'),
+       url('../fonts/Consolas/consolaz.ttf') format('truetype');
+}
