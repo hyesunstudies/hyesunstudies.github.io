@@ -1,19 +1,13 @@
-@import "fonts";
-@import "rouge-github";
-
 body {
-  // background-color: #fff;
-  background-color: #0d1117;
+  background-color: #181a1b;
   padding:50px;
-  font: 14px/1.5 "Exo", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#c9d1d9;
-  // color:#727272;
-  // font-weight:400;
-  font-weight:500;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color:#b0a99f;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#c9d1d9;
+  color:#c4bfb7;
   margin:0 0 20px;
 }
 
@@ -27,32 +21,32 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+  font-weight: 500;
 }
 
 h2 {
-  color:#c9d1d9;
+  color:#c4bfb7;
+  font-weight: 500;
 }
 
 h3, h4, h5, h6 {
-  color:#c9d1d9;
+  color:#c4bfb7;
+  font-weight: 500;
 }
 
 a {
-  color:#d24413;
+  color:#46a1cf;
   text-decoration:none;
 }
 
-a:hover, a:focus {
-  color:#d24413;
-  // text-decoration: underline;
-  // font-weight: bold;
+a:hover {
+  color:#46a1cf;
 }
 
 a small {
-  font-size:12px;
+  font-size:11px;
   color:#777;
   margin-top:-0.3em;
-  font-weight:500;
   display:block;
 }
 
@@ -66,15 +60,15 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #30363d;
+  border-left:1px solid #373c3e;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
 }
 
 code, pre {
-  font-family: "Consolas", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:rgb(43, 43, 43);
+  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color:#333;
 }
 
 pre {
@@ -93,34 +87,20 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #30363d;
+  border-bottom:1px solid #373c3e;
 }
 
 dt {
-  color:#c9d1d9;
-  font-weight:700;
+  color:#c4bfb7;
+  font-weight:500;
 }
 
 th {
-  color:#c9d1d9;
+  color:#c4bfb7;
 }
 
 img {
   max-width:100%;
-}
-
-kbd {
-  background-color: #fafbfc;
-  border: 1px solid #c6cbd1;
-  border-bottom-color: #959da5;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #959da5;
-  color: #444d56;
-  display: inline-block;
-  font-size: 11px;
-  line-height: 10px;
-  padding: 3px 5px;
-  vertical-align: middle;
 }
 
 header {
@@ -130,64 +110,63 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-ul.downloads {
+header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #21262d;
+  background: #1e2122;
   border-radius:5px;
-  border:1px solid #0d1117;
+  border:1px solid #393d40;
   width:270px;
 }
 
-.downloads li {
+header li {
   width:89px;
   float:left;
-  border-right:1px solid #373b42;
+  border-right:1px solid #393d40;
   height:40px;
 }
 
-.downloads li:first-child a {
+header li:first-child a {
   border-radius:5px 0 0 5px;
 }
 
-.downloads li:last-child a {
+header li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
-.downloads a {
+header ul a {
   line-height:1;
   font-size:11px;
-  color:#c9d1d9;
+  color:#a8a095;
   display:block;
   text-align:center;
   padding-top:6px;
   height:34px;
 }
 
-.downloads a:hover, .downloads a:focus {
-  color:#c9d1d9;
-  // font-weight:bold;
+header ul a:hover {
+  color:#a8a095;
 }
 
-.downloads ul a:active {
+header ul a:active {
   background-color:#f0f0f0;
 }
 
 strong {
-  color:#c9d1d9;
-  font-weight:700;
+  color:#d3cfc9;
+  font-weight:500;
 }
 
-.downloads li + li + li {
+header ul li + li + li {
   border-right:none;
   width:89px;
 }
 
-.downloads a strong {
+header ul a strong {
   font-size:14px;
   display:block;
-  color:#c9d1d9;
+  color:#d3cfc9;
 }
 
 section {
@@ -273,11 +252,11 @@ footer {
     padding:15px;
   }
 
-  .downloads {
+  header ul {
     width:99%;
   }
 
-  .downloads li, .downloads li + li + li {
+  header li, header ul li + li + li {
     width:33%;
   }
 }
