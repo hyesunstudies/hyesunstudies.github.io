@@ -2,12 +2,38 @@
 layout: default
 ---
 
+<script type="application/javascript">
+
+function resizeIFrameToFitContent( iFrame ) {
+
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+
+    var iFrame = document.getElementById( 'iFrame1' );
+    resizeIFrameToFitContent( iFrame );
+
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+
+</script>
+
 # Bài 1: Tiêu đề bài 1
 Nội dung bài 1
 
-<iframe width="300" height="230" frameBorder="0"
+<iframe frameBorder="0" id="iFrame1"
   src="https://www.youtube.com/embed/DWcJFNfaw9c">
 </iframe>
+
+<!-- <iframe width="300" height="230" frameBorder="0"
+  src="https://www.youtube.com/embed/DWcJFNfaw9c">
+</iframe> -->
 
 ## Header 2
 
